@@ -6,7 +6,20 @@
       style="width: 200px; height: 200px"
     >
   </q-page>
+
+  <btn
+        class="q-mt-xl"
+        color="white"
+        text-color="blue"
+        unelevated
+        to='EvidencijaPage'
+        label="Evidencija"
+        no-caps
+      />
+      
 </template>
+
+
 
 <script setup>
 defineOptions({
